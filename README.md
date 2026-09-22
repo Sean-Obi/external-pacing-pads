@@ -1,4 +1,4 @@
-# External Pacing Pads — Perforated Ag/AgCl Electrode + FEM + NSGA-II
+# External Pacing Pads - Perforated Ag/AgCl Electrode + FEM + NSGA-II
 
 A redesigned transcutaneous pacing pad that spreads current more evenly across the skin to cut pain and burn risk. The anterior pad uses a perforated Ag/AgCl layer on Mylar: 1,500 × 0.4 mm holes in eight concentric rings push current away from the pad edge, where hotspots form. A larger posterior pad completes the anterior–posterior configuration. The hole geometry was chosen with a 2D finite-element thorax model and NSGA-II multi-objective optimisation in MATLAB.
 
