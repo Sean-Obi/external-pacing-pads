@@ -1,0 +1,13 @@
+# MATLAB
+*.asv
+*.m~
+*.mat
+*.fig
+slprj/
+# Fusion 360
+*.f3d.bak
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
