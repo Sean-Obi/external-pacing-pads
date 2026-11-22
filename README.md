@@ -74,7 +74,7 @@ For the pad geometry:
 ## Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/external-pacing-pads.git
+   git clone https://github.com/Sean-Obi/external-pacing-pads.git
    cd external-pacing-pads
    ```
 2. Open MATLAB and set the working folder to `simulation/`.
