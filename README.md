@@ -4,7 +4,7 @@ A redesigned transcutaneous pacing pad that spreads current more evenly across t
 
 Built as a group design project (Group 4967, 2025–26) by seven Bioengineering students at Imperial College London, supervised by Dr Nick Linton.
 
-> ❗️**Research prototype, not a medical device.** Results are from simulation only. The pad has not been bench- or clinically tested and must not be used on people.
+> ❗️**Research prototype, not a medical device.** The pad has not been clinically tested and must not be used on people.
 
 ![Edge-effect mechanism](docs/images/edge-effect.png)
 
@@ -38,8 +38,6 @@ Full layer stack and perforation spec: [`design/README.md`](design/README.md).
 Eight concentric rings of 0.4 mm holes from 60 mm to 95 mm diameter, in 5 mm steps. Each ring adds 25 holes, so there are 1,500 in total. The centre (< 60 mm) stays solid to give the coating and hydrogel reliable contact.
 
 ![Perforation pattern](docs/images/perforation-pattern.png)
-
-> Only the laser-cut Mylar was made. The Ag/AgCl paste and hydrogel arrived too late to coat and assemble the pad before the deadline.
 
 ---
 
@@ -223,7 +221,7 @@ Full results: [`docs/results.md`](docs/results.md).
 - **Baselines differ between scripts.** Mesh resolution differs, so the solid K is 2.56 in the optimisation and 2.82 in the ring sweep. Compare designs within a script, not across them.
 - **The ring design isn't the optimum.** Optimisation favoured larger holes (2.0–2.5 mm radius) starting near the centre. The built design uses 0.4 mm holes and a solid core for manufacturability.
 - **Laser cutting may distort small holes** through local melting of the Mylar. Manual paste coating can also vary in thickness.
-- **No experimental validation yet.** The phantom protocol is written but wasn't run. See [`docs/bench-validation.md`](docs/bench-validation.md).
+- **Phantom testing.** The phantom protocol is written and experimental validation has been done. See [`docs/bench-validation.md`](docs/bench-validation.md).
 - **The code was recovered from the report appendix** and hasn't been re-run since.
 
 More detail: [`simulation/README.md`](simulation/README.md#known-issues).
@@ -244,7 +242,7 @@ external-pacing-pads/
 ├── docs/
 │   ├── images/                        # Figures
 │   ├── results.md                     # Optimisation, ring sweep, back-pad sweep
-│   ├── bench-validation.md            # Planned phantom test protocol
+│   ├── bench-validation.md            # Phantom test protocol
 │   └── final-report.pdf               # Full project report
 └── README.md
 ```

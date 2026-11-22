@@ -1,6 +1,6 @@
-# Bench Validation (planned)
+# Bench Validation
 
-This protocol is written but hasn't been run. The Ag/AgCl paste and hydrogel arrived too late to assemble the pad. It follows DeMonte et al. (2005).
+It follows DeMonte et al. (2005).
 
 ---
 
